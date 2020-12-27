@@ -1,9 +1,27 @@
 # test_setacinq
 
-# Yêu cầu 1,2,3
+# Requirements
+1 Write sample RESTful API with Nodejs that can do:
+
+    SignUp
+
+    Login
+
+    GetAllBooks
+
+    GetBookByID
+
+    AddBook
+
+    UpdateBookByID
+
+2 Integrate your code from question 1 with DB SQL (Postgres).
+
+3 Apply middleware to check authorization using JWT.
+
 
 ```sh
-Tạo file .env giống file .env.example
+Create file .env as file .env.example
 ```
 ```sh
 npm i
@@ -39,11 +57,17 @@ node index.js
 <img src='image/updatebook.PNG'></img>
 
 
-# Yêu cầu 4,5
+# Requirements
+
+4 Algorithm matrix inversion: 
+
+    input  a matrix : for example  matrix size 3*3 [[1,2,3],[4,5,6],[7,8,9]] 
+    output expected  [[9,8,7],[6,5,4],[3,2,1]] 
 
 ```sh
 run py matrix_inversion.py 
 ```
+5 Write Unit Test for the function in question 4;
 
 
 ```sh
